@@ -26,6 +26,10 @@
             android:name="com.example.android_examples.Calculadora"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.example.android_examples.WeightSum"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
