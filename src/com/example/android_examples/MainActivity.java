@@ -1,18 +1,15 @@
 package com.example.android_examples;
 
-import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ListView;
-import android.widget.TextView;
 
 public class MainActivity extends ListActivity {
 	
-	String classes[] = {"Calculadora", "WeightSum"};
+	String classes[] = {"Calculadora", "WeightSum","Camara"};
 			
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
