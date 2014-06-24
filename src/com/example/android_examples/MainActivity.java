@@ -12,7 +12,7 @@ import android.widget.ListView;
 
 public class MainActivity extends ListActivity {
 	
-	String classes[] = {"Calculadora", "WeightSum","Camara","Form","BundleSender"};
+	String classes[] = {"SobreMi","Calculadora", "WeightSum","Camara","Form","BundleSender"};
 			
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +49,8 @@ public class MainActivity extends ListActivity {
 		// TODO Auto-generated method stub
 		switch(item.getItemId()){
 		case R.id.sobreMi:
+			Intent i = new Intent("com.example.android_examples.ABOUT");
+			startActivity(i);
 			break;
 		case R.id.preferencias:
 			break;
