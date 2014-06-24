@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:title="Sobre Mi"
+        android:id="@+id/sobreMi"
+        android:numericShortcut="1"
+        android:alphabeticShortcut="a"
+        />
+    
+    <item
+        android:title="Preferencias"
+        android:id="@+id/preferencias"
+        />
+
+</menu>
