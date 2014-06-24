@@ -1,4 +1,4 @@
-Android-Examples
+Android Examples
 ================
 
 - MainActivity: Esta compuesta por un ListView que redirecciona al resto de las activities.
@@ -8,4 +8,5 @@ Android-Examples
 - BundleReciver/BundleSender: Manejo de bundles para ver como se pasan datos entre activities.
 - Form: Formulario de login para validar EditText.
 - SobreMi: Activity con theme dark llamada por un intent como popup.
-- Menu: Menu de preferencias y sobre mi.
+- Prefs: Preferencias de la aplicacion.
+- Menu: Menu de preferencias, salir y sobre mi.

@@ -53,7 +53,12 @@ public class MainActivity extends ListActivity {
 			startActivity(i);
 			break;
 		case R.id.preferencias:
+			Intent e = new Intent("com.example.android_examples.PREFS");
+			startActivity(e); 
 			break;
+		case R.id.exit:
+			finish();
+			break;	
 		}
 		return false;
 	}
