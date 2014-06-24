@@ -25,17 +25,24 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
+        public static final int bEnviar=0x7f07000b;
         public static final int bRestar=0x7f070002;
         public static final int bSetWall=0x7f070005;
         public static final int bSumar=0x7f070001;
+        public static final int etPassword=0x7f07000a;
+        public static final int etUsuario=0x7f070008;
         public static final int ibTakePic=0x7f070004;
         public static final int ivReturnedPic=0x7f070003;
+        public static final int tDesc=0x7f070006;
+        public static final int tPassword=0x7f070009;
         public static final int tResult=0x7f070000;
+        public static final int tUsuario=0x7f070007;
     }
     public static final class layout {
         public static final int activity_calculadora=0x7f030000;
         public static final int activity_camara=0x7f030001;
-        public static final int activity_weight_sum=0x7f030002;
+        public static final int activity_form=0x7f030002;
+        public static final int activity_weight_sum=0x7f030003;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
