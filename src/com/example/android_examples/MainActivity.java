@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 public class MainActivity extends ListActivity {
 	
-	String classes[] = {"Calculadora", "WeightSum","Camara","Form"};
+	String classes[] = {"Calculadora", "WeightSum","Camara","Form","BundleSender"};
 			
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
