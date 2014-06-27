@@ -15,3 +15,5 @@ Android Examples
 - GFXSurface2: Animaciones con onTouch y fisicas del movimiento.
 - HttpRequest: Clase para manejar peticiones ajax asincronas.
 - ConvertImg: Convertir urls de imagenes en bitmap.
+- LongClick: Manejo del evento para mantener el click.
+- Tabs: Manejo de tabs y generacion dinamica.

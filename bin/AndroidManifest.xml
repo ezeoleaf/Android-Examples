@@ -17,7 +17,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.android_examples.MainActivity"
+            android:name="com.maxwell.android_examples.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,32 +26,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android_examples.Calculadora"
+            android:name="com.maxwell.android_examples.Calculadora"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.example.android_examples.WeightSum"
+            android:name="com.maxwell.android_examples.WeightSum"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.example.android_examples.Camara"
+            android:name="com.maxwell.android_examples.Camara"
             android:screenOrientation="portrait"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.example.android_examples.Form"
+            android:name="com.maxwell.android_examples.Form"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.example.android_examples.BundleSender"
+            android:name="com.maxwell.android_examples.BundleSender"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.example.android_examples.BundleReciver"
+            android:name="com.maxwell.android_examples.BundleReciver"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".SobreMi"
+            android:name="com.maxwell.android_examples.SobreMi"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Dialog" >
             <intent-filter>
@@ -60,7 +60,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Prefs"
+            android:name="com.maxwell.android_examples.Prefs"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.example.android_examples.PREFS" />
@@ -68,23 +68,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android_examples.GFX"
+            android:name="com.maxwell.android_examples.GFX"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.example.android_examples.GFXSurface"
+            android:name="com.maxwell.android_examples.GFXSurface"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.example.android_examples.GFXSurface2"
+            android:name="com.maxwell.android_examples.GFXSurface2"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.example.android_examples.LongClick"
+            android:name="com.maxwell.android_examples.LongClick"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.example.android_examples.Tabs"
+            android:name="com.maxwell.android_examples.Tabs"
             android:label="@string/app_name" >
         </activity>
     </application>
