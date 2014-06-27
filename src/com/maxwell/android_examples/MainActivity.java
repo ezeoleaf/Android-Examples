@@ -1,7 +1,5 @@
 package com.maxwell.android_examples;
 
-import com.example.android_examples.R;
-
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,7 +1,5 @@
 package com.maxwell.android_examples;
 
-import com.example.android_examples.R;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

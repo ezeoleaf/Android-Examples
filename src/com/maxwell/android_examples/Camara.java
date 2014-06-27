@@ -3,8 +3,6 @@ package com.maxwell.android_examples;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.example.android_examples.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;

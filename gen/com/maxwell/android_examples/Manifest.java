@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.android_examples;
+package com.maxwell.android_examples;
 
 public final class Manifest {
     public static final class permission {
