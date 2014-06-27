@@ -79,6 +79,10 @@
             android:name="com.example.android_examples.GFXSurface2"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.example.android_examples.LongClick"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
