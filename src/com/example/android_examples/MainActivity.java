@@ -12,7 +12,8 @@ import android.widget.ListView;
 
 public class MainActivity extends ListActivity {
 	
-	String classes[] = {"SobreMi","Calculadora", "WeightSum","Camara","Form","BundleSender","GFX","GFXSurface","GFXSurface2","LongClick"};
+	String classes[] = {"SobreMi","Calculadora", "WeightSum","Camara","Form","BundleSender",
+			"GFX","GFXSurface","GFXSurface2","LongClick","Tabs"};
 			
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
