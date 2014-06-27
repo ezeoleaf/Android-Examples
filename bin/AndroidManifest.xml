@@ -9,6 +9,7 @@
         android:targetSdkVersion="19" />
     
     <permission android:name="android.permission.SET_WALLPAPER"></permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:allowBackup="true"
