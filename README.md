@@ -10,3 +10,8 @@ Android Examples
 - SobreMi: Activity con theme dark llamada por un intent como popup.
 - Prefs: Preferencias de la aplicacion.
 - Menu: Menu de preferencias, salir y sobre mi.
+- GFX: Animaciones basicas.
+- GFXSurface: Animaciones con onTouch.
+- GFXSurface2: Animaciones con onTouch y fisicas del movimiento.
+- HttpRequest: Clase para manejar peticiones ajax asincronas.
+- ConvertImg: Convertir urls de imagenes en bitmap.
