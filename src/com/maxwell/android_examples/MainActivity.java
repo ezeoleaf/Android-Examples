@@ -13,7 +13,7 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 	
 	String classes[] = {"SobreMi","Calculadora", "WeightSum","Camara","Form","BundleSender",
-			"GFX","GFXSurface","GFXSurface2","LongClick","Tabs"};
+			"GFX","GFXSurface","GFXSurface2","LongClick","Tabs","SimpleBrowser","Flipper"};
 			
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
