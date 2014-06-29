@@ -7,6 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -57,7 +58,6 @@ public class InternalData extends Activity implements OnClickListener{
 		switch (v.getId()) {
 		case R.id.bSave:
 			String data = etData.getText().toString();
-			Log.i("my_info",data);
 			try {
 				fos = openFileOutput(FILENAME, Context.MODE_PRIVATE);
 				fos.write(data.getBytes());
@@ -75,14 +75,31 @@ public class InternalData extends Activity implements OnClickListener{
 	
 	public class loadSomeStuff extends AsyncTask<String, Integer, String>{
 		
-		protected void onPreExecute(String f){
-			f = "whatever";
+		ProgressDialog dialog;
+		
+		protected void onPreExecute(){
+			dialog = new ProgressDialog(InternalData.this);
+			dialog.setProgress(ProgressDialog.STYLE_HORIZONTAL);
+			dialog.setMax(100);
+			dialog.show();
 		}
 		
 		@Override
 		protected String doInBackground(String... params) {
 			String collected = null;
 			FileInputStream fis = null;
+			
+			for(int i = 0; i < 20; i++){
+				publishProgress(5);
+				try {
+					Thread.sleep(88);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			dialog.dismiss();
+			
 			try {
 				fis = openFileInput(FILENAME);
 				byte[] dataArray = new byte[fis.available()];
@@ -98,22 +115,22 @@ public class InternalData extends Activity implements OnClickListener{
 			}finally{
 				try {
 					fis.close();
-					return collected;
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
-			return null;
+			return collected;
 		}
 		
-		protected void onProgressUpdated(Integer...progress){
-			
+		protected void onProgressUpdate(Integer...progress){
+			dialog.incrementProgressBy(progress[0]);
 		}
 		
 		protected void onPostExecute(String result){
 			tvRes.setText(result);
-			Log.i("my_info",result);
+			
+			Log.i("my_info","resultado: "+result);
 		}
 	}	
 }
